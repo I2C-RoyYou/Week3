@@ -86,14 +86,14 @@
         <img class='icon' src='./assets/images/product-1.png' />
       </div>
       <div class='title-div'>
-        <h3><img class='icon' src='./assets/images/icon-sun.svg' />optical</h3>
+        <h3 class='classic-title'><img class='icon' src='./assets/images/icon-sun.svg' />optical</h3>
       </div>
     </div>
 
-    <div class="flex-row reverse">
-      <div class="pic-div"><img src="./assets/images/product-2.png" alt="product-2"></div>
-      <div class="title-div">
-        <h3><img src="./assets/images/icon-sun.svg" alt="" class="icon">sunglasses</h3>
+    <div class="flex-row">
+      <div class="pic-div order-lg-2"><img src="./assets/images/product-2.png" alt="product-2"></div>
+      <div class="title-div order-lg-1 justify-content-end-lg">
+        <h3 class='classic-title'><img src="./assets/images/icon-sun.svg" alt="" class="icon">sunglasses</h3>
       </div>
     </div>
 
@@ -102,7 +102,7 @@
         <img class='icon' src='./assets/images/product-3.png' />
       </div>
       <div class='title-div'>
-        <h3><img class='icon' src='./assets/images/icon-thunder.svg' />functional</h3>
+        <h3 class='classic-title'><img class='icon' src='./assets/images/icon-thunder.svg' />functional</h3>
       </div>
     </div>
 
@@ -182,7 +182,7 @@
         <label for="desc">意見反應</label>
         <textarea type="text" id='desc' placeholder="請輸入您的意見"></textarea>
       </div>
-      <div class="form-row flex-row align-item-center">
+      <div class="form-row flex-row align-item-center-lg">
         <input type="checkbox" name="" id="check-submit">
         <label for="check-submit">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
       </div>
@@ -194,7 +194,7 @@
 
   <footer class="footer">
     <div class='container'>
-      <div class='footer-1'>
+      <div class='footer-1 hidden-sm'>
         <ul class='menu'>
           <li class='menu-item'>
             <a href='index.html'>首頁</a>
@@ -231,12 +231,30 @@
       </div>
 
       <div class='footer-2'>
-        <img src="./assets/images/icon-phone.svg" />
-        <a href='tel:0800-000-000' class='eng' >0800-000-000</a>
+        <div class='flex-row align-item-center'>
+          <img src="./assets/images/icon-phone.svg" />
+          <a href='tel:0800-000-000' class='eng' >0800-000-000</a>
+        </div>
+
+        <div class='flex-row align-item-center'>
+          <ul class='social hidden-lg hidden-md'>
+            <li class='social-item'>
+              <a href='javascript:void(0);' ><img src='./assets/images/icon-fb.svg' class='social-icon' /></a>
+            </li>
+            <li class='social-item'>
+              <a href='javascript:void(0);' ><img src='./assets/images/icon-ig.svg' class='social-icon' /></a>
+            </li>
+            <li class='social-item'>
+              <a href='javascript:void(0);' ><img src='./assets/images/icon-line.svg' class='social-icon' /></a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class='footer-3'>
-        <img src="./assets/images/icon-mail.svg" />
-        <a href='mailto:glasses@business.com' class='eng' >glasses@business.com</a>
+        <div class='flex-row align-item-center'>
+          <img src="./assets/images/icon-mail.svg" />
+          <a href='mailto:glasses@business.com' class='eng' >glasses@business.com</a>
+        </div>
       </div>
 
       <div class='hr'></div>
